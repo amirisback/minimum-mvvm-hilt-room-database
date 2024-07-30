@@ -1,7 +1,8 @@
-## Minimum MVVM
+## Minimum MVVM Room DB
 - Hilt Dependency Injection
 - View Model
 - Lifecycle
+- Room DB
 
 ## Result
 |<img width="200px" height="480px" src="https://raw.githubusercontent.com/amirisback/minimum-mvvm-hilt-room-database/master/docs/image/ss-1.png">|<img width="200px" height="480px" src="https://raw.githubusercontent.com/amirisback/minimum-mvvm-hilt-room-database/master/docs/image/ss-2.png">|
