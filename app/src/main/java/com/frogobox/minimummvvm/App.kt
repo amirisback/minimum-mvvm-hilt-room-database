@@ -15,6 +15,6 @@ import dagger.hilt.android.HiltAndroidApp
  */
 
 @HiltAndroidApp
-class MainApp : Application() {
+class App : Application() {
 
 }

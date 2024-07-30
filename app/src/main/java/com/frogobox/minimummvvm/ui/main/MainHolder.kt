@@ -1,12 +1,15 @@
-package com.frogobox.minimummvvm
+package com.frogobox.minimummvvm.ui.main
 
 import android.view.View
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.frogobox.minimummvvm.model.ContactModel
+import com.frogobox.minimummvvm.R
+import com.frogobox.minimummvvm.util.RvListener
 
 
-/*
+/**
  * Created by faisalamir on 07/02/22
  * recyclercoroutines
  * -----------------------------------------
@@ -21,7 +24,7 @@ import com.bumptech.glide.Glide
 
 class MainHolder(private val view: View) : RecyclerView.ViewHolder(view) {
 
-    fun bindItem(data: MainData, listener: MainItemListener) {
+    fun bindItem(data: ContactModel, listener: RvListener) {
 
         val imageProfileGithub = "https://avatars.githubusercontent.com/u/24654871?s=400&u=a988212f6f21a08c8b56775afd1d85c5104b3c8c&v=4"
 

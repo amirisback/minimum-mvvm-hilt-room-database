@@ -1,9 +1,9 @@
-package com.frogobox.minimummvvm
+package com.frogobox.minimummvvm.util
 
-import com.frogobox.minimummvvm.MainData
+import com.frogobox.minimummvvm.model.ContactModel
 
 
-/*
+/**
  * Created by faisalamir on 07/02/22
  * recyclercoroutines
  * -----------------------------------------
@@ -16,8 +16,8 @@ import com.frogobox.minimummvvm.MainData
  *
  */
 
-interface MainItemListener {
+interface RvListener {
 
-    fun onClickListener(data: MainData)
+    fun onClickListener(data: ContactModel)
 
 }

@@ -1,11 +1,14 @@
-package com.frogobox.minimummvvm
+package com.frogobox.minimummvvm.ui.main
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.frogobox.minimummvvm.model.ContactModel
+import com.frogobox.minimummvvm.R
+import com.frogobox.minimummvvm.util.RvListener
 
 
-/*
+/**
  * Created by faisalamir on 07/02/22
  * recyclercoroutines
  * -----------------------------------------
@@ -18,16 +21,16 @@ import androidx.recyclerview.widget.RecyclerView
  *
  */
 
-class MainAdapter(private val listener: MainItemListener) : RecyclerView.Adapter<MainHolder>(){
+class MainAdapter(private val listener: RvListener) : RecyclerView.Adapter<MainHolder>(){
 
-    private val listData = mutableListOf<MainData>()
+    private val listData = mutableListOf<ContactModel>()
 
-    fun setContent(data: List<MainData>) {
+    fun setContent(data: List<ContactModel>) {
         listData.clear()
         listData.addAll(data)
     }
 
-    fun notifyInserted(data: MainData, position: Int) {
+    fun notifyInserted(data: ContactModel, position: Int) {
         listData.add(position, data)
         notifyItemInserted(position)
     }
