@@ -4,7 +4,7 @@
 - Lifecycle
 
 ## Result
-|<img width="200px" height="360px" src="https://raw.githubusercontent.com/amirisback/minimum-mvvm-hilt-room-database/master/docs/image/ss-1.png">|<img width="200px" height="360px" src="https://raw.githubusercontent.com/amirisback/minimum-mvvm-hilt-room-database/master/docs/image/ss-2.png">|
+|<img width="200px" height="480px" src="https://raw.githubusercontent.com/amirisback/minimum-mvvm-hilt-room-database/master/docs/image/ss-1.png">|<img width="200px" height="480px" src="https://raw.githubusercontent.com/amirisback/minimum-mvvm-hilt-room-database/master/docs/image/ss-2.png">|
 
 ## Colaborator
 Very open to anyone, I'll write your name under this, please contribute by sending an email to me
